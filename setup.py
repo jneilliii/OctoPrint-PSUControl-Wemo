@@ -6,7 +6,7 @@ import setuptools
 plugin_identifier = "psucontrol_wemo"
 plugin_package = "octoprint_%s" % plugin_identifier
 plugin_name = "OctoPrint-PSUControl-Wemo"
-plugin_version = "1.0.0"
+plugin_version = "1.0.1"
 plugin_description = "Adds Wemo Plug support to OctoPrint-PSUControl as a sub-plugin"
 plugin_author = "jneilliii"
 plugin_author_email = "jneilliii+github@gmail.com"
