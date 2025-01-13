@@ -70,7 +70,7 @@ class PSUControl_Wemo(octoprint.plugin.StartupPlugin,
                 port = pywemo.ouimeaux_device.probe_wemo(plugip)
             url = "http://{}:{}/setup.xml".format(plugip, port)
             url = url.replace(':None', '')
-            device = pywemo.discovery.device_from_description(url, None)
+            device = pywemo.discovery.device_from_description(url)
 
             if cmd == "info":
                 return device.get_state()
